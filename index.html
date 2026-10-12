@@ -1,27 +1,166 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>江戸川区サッカー連盟 一般部</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Yu Gothic","Meiryo",sans-serif;
+    background:#f4f6f9;
+    color:#333;
+    line-height:1.6;
+}
+
+header{
+    background:#005bac;
+    color:white;
+    padding:40px 20px;
+    text-align:center;
+}
+
+header h1{
+    font-size:2rem;
+    margin-bottom:10px;
+}
+
+header p{
+    opacity:0.9;
+}
+
+.container{
+    max-width:1200px;
+    margin:30px auto;
+    padding:0 20px;
+}
+
+.notice{
+    background:white;
+    border-left:5px solid #005bac;
+    padding:20px;
+    border-radius:8px;
+    margin-bottom:30px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.08);
+}
+
+.menu{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(270px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    padding:25px;
+    text-decoration:none;
+    color:#333;
+    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card h2{
+    font-size:1.1rem;
+    color:#005bac;
+    margin-bottom:10px;
+}
+
+.card p{
+    font-size:0.9rem;
+    color:#666;
+}
+
+footer{
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+    background:#222;
+    color:white;
+    font-size:0.85rem;
+}
+
+@media (max-width:600px){
+
+    header h1{
+        font-size:1.5rem;
+    }
+
+    .card{
+        padding:20px;
+    }
+}
+
+</style>
 </head>
+
 <body>
 
-<h1>江戸川区サッカー連盟 一般部</h1>
+<header>
+    <h1>江戸川区サッカー連盟 一般部</h1>
+    <p>公式ホームページ</p>
+</header>
 
-<p>江戸川区サッカー連盟 一般部の公式ホームページです。　ただいま準備中です。</p>
+<div class="container">
 
-<h2>メニュー</h2>
+    <div class="notice">
+        <h2>お知らせ</h2>
+        <p>
+            江戸川区サッカー連盟一般部の大会情報・試合結果・順位表等を掲載しています。
+        </p>
+    </div>
 
-<ul>
-  <li>お知らせ</li>
-  <li>第79回秋季区民大会日程</li>
-  <li>試合結果</li>
-  <li>順位表</li>
-  <li>加盟チーム一覧</li>
-　<li>江戸川選抜</li>
-  <li>過去の大会結果</li> 
-</ul>
+    <div class="menu">
+
+        #
+            <h2>📢 お知らせ</h2>
+            <p>連盟からの最新情報を掲載します。</p>
+        </a>
+
+        <a href="#" class="card">
+            <h2>⚽ 第79回秋季区民大会日程</会場情報を掲載します。</p>
+        </a>
+
+        <a href="#" class="card">
+                 <p>各大会・リーグ戦の結果を掲載します。</p>
+        </a>
+
+        <a href="#" class="card">
+h2>
+            <p>リーグ順位表を掲載します。</p>
+        </a>
+
+        <a href="#" class="card">
+                    <p>加盟チーム情報を掲載します。</p>
+        </a>
+
+        <a href="#" class="card">
+            <h2>🇯🇵 江戸川選抜</h2>
+を掲載します。</p>
+        </a>
+
+        <a href="#" class="cardの大会結果</h2>
+            <p>過去大会の結果を閲覧できます。</p>
+        </a>
+
+    </div>
+
+</div>
+
+<footer>
+    © 江戸川区サッカー連盟 一般部
+</footer>
 
 </body>
 </html>
